@@ -13,36 +13,36 @@
     tools:context="dong.lan.togglebutton.MainActivity">
 
     <dong.lan.library.ToggleButton
-        app:tb_circle_radius="3dp"
-        app:tb_shadow_radius="2dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <dong.lan.library.ToggleButton
-        app:tb_circle_radius="5dp"
-        app:tb_shadow_radius="2dp"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <dong.lan.library.ToggleButton
         app:tb_circle_radius="10dp"
         app:tb_shadow_radius="2dp"
-        app:tb_check_bg_color="#ADF7D1"
-        app:tb_uncheck_color="#fff"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <dong.lan.library.ToggleButton
         app:tb_circle_radius="15dp"
         app:tb_shadow_radius="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <dong.lan.library.ToggleButton
+        app:tb_circle_radius="20dp"
+        app:tb_shadow_radius="4dp"
+        app:tb_check_bg_color="#ADF7D1"
+        app:tb_uncheck_color="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <dong.lan.library.ToggleButton
+        app:tb_circle_radius="30dp"
+        app:tb_shadow_radius="5dp"
         app:tb_check_bg_color="#C264FE"
         app:tb_check_color="#7A08FA"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <dong.lan.library.ToggleButton
-        app:tb_circle_radius="20dp"
-        app:tb_shadow_radius="2dp"
+        app:tb_circle_radius="40dp"
+        app:tb_shadow_radius="6dp"
         app:tb_check_color="#384259"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -24,7 +24,7 @@ public class ToggleButton extends View {
     private boolean isChecked = false;
 
     private int checkColor = 0xff15b17f;
-    private int uncheckColor = 0xffe4dbd9;
+    private int uncheckColor = 0xffA0E4B0;
     private int checkedBgColor = 0xff73ccae;
     private int unCheckedBgColor = 0xffcbc9d5;
 
@@ -69,11 +69,12 @@ public class ToggleButton extends View {
             shadowColor = ta.getColor(R.styleable.ToggleButton_tb_shadow_color,shadowColor);
             uncheckColor = ta.getColor(R.styleable.ToggleButton_tb_uncheck_color,uncheckColor);
             ta.recycle();
+        }else{
+            circleRadius = dp2px(circleRadius);
+            shadowSize = dp2px(shadowSize);
+            shadowDx = dp2px(shadowDx);
+            shadowDy = dp2px(shadowDy);
         }
-        circleRadius = dp2px(circleRadius);
-        shadowSize = dp2px(shadowSize);
-        shadowDx = dp2px(shadowDx);
-        shadowDy = dp2px(shadowDy);
         width = 4 * circleRadius + shadowSize * 2 + shadowDx;
         height = (shadowSize + circleRadius) * 2 + shadowDy;
         int rectHeight = circleRadius;
