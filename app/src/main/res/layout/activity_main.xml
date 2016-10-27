@@ -18,6 +18,34 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
+    <dong.lan.library.ToggleButton
+        app:tb_circle_radius="5dp"
+        app:tb_shadow_radius="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <dong.lan.library.ToggleButton
+        app:tb_circle_radius="10dp"
+        app:tb_shadow_radius="2dp"
+        app:tb_check_bg_color="#ADF7D1"
+        app:tb_uncheck_color="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <dong.lan.library.ToggleButton
+        app:tb_circle_radius="15dp"
+        app:tb_shadow_radius="2dp"
+        app:tb_check_bg_color="#C264FE"
+        app:tb_check_color="#7A08FA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <dong.lan.library.ToggleButton
+        app:tb_circle_radius="20dp"
+        app:tb_shadow_radius="2dp"
+        app:tb_check_color="#384259"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
